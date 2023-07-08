@@ -1,0 +1,898 @@
+@import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Aoboshi+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+
+header{
+    background-color: white;
+}
+
+nav *{
+    text-decoration: none;
+    display: inline-block;
+}
+header > h1{
+    font-family: 'Atkinson Hyperlegible', sans-serif;    font-style: normal;
+    position: absolute;
+    width: 103px;
+    height: 30px;
+    left: 650px;
+    top: 20px;
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 30px;
+
+
+    color: #0E8388;
+
+}
+nav > ul{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px 173px;
+    gap: 40px;
+
+    position: absolute;
+    width: 707px;
+    height: 23px;
+    left: 382px;
+    top: 90px;
+}
+.Divider{
+    position: absolute;
+    height: 0px;
+    left: 2.2%;
+    right: 2%;
+    top: 55px;
+
+}
+.Avatar{
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    left: 28px;
+    top: 26px;
+}
+.Cart{
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    left: 60px;
+    top: 26px;
+}
+.Search{
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    left: 1392px;
+    top: 26px;
+}
+nav ul li a{
+    font-family: 'Aoboshi One', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 23px;
+
+    color: #2E4F4F;
+}
+.Kombucha a {
+    width: 82px;
+    height: 23px;
+
+    
+}
+.SCOBY a {
+    width: 60px;
+    height: 23px;
+
+}
+.Toples-Fermentasi a{
+    width: 139px;
+    height: 23px;
+
+}
+
+.Container{
+    position: absolute;
+    width: 1280px;
+    height: 584px;
+    left: 80px;
+    top: 192px;
+
+    background: #2C3333;
+}
+.Container img{
+    position: absolute;
+    width: 520px;
+    height: 584px;
+    left: 760px;
+    top: 0px;
+}
+.Container h2{
+    width: 513px;
+    height: 90px;
+    padding-left: 60px;
+    padding-top: 60px;
+    font-family: 'Atkinson Hyperlegible', sans-serif;    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 140%;
+    /* or 45px */
+
+
+    color: #CBE4DE;
+}
+.Container p{
+    position: absolute;
+    width: 602px;
+    height: 162px;
+    left: 60px;
+    top: 362px;
+
+    font-family: 'Aoboshi One', serif;    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    /* or 27px */
+
+    display: flex;
+    align-items: flex-end;
+    text-align: justify;
+
+    color: #CBE4DE;
+
+}
+.view{
+    box-sizing: border-box;
+    border-radius: 6px;
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 16px 32px;
+    gap: 10px;
+    margin-left: 60px;
+    margin-top: 41px;
+    width: 180px;
+    height: 56px;
+
+    background: rgba(249, 249, 249, 0.15);
+    text-decoration: none;
+    
+
+    font-family: 'Aoboshi One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 150%;
+    /* identical to box height, or 24px */
+
+
+    color: #CBE4DE;
+    transition: 0.1s;
+
+}
+.Container h3{
+    width: 116px;
+    height: 24px;
+
+    font-family: 'Aoboshi One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    /* identical to box height, or 24px */
+
+
+    color: #CBE4DE;
+}
+main h2{
+    position: absolute;
+    width: 431px;
+    height: 34px;
+    left: 529px;
+    top: 896px;
+    
+    font-family: 'Atkinson Hyperlegible';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 140%;
+
+
+    color: #2C3333;
+
+}
+.delivery{
+    width: 24px;
+    height: 24px;
+
+    /* Transparent */
+
+    background: #FFFFFF;
+    background-blend-mode: multiply;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+.yang-membuat-berbeda{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 16px;
+
+    position: absolute;
+    width: 270px;
+    height: 148px;
+    top: 981px;
+}
+.delivery1{
+    width: 183px;
+    height: 28px;
+
+    font-family: 'Atkinson Hyperlegible';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 140%;
+    /* identical to box height, or 28px */
+
+
+    color: #2C3333;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+.delivery2{
+    width: 270px;
+    height: 72px;
+
+    font-family: 'Aoboshi One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    /* or 24px */
+
+
+    color: #2C3333;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+.pengiriman-terjamin{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 16px;
+
+    position: absolute;
+    width: 270px;
+    height: 148px;
+    left: 86px;
+    top: 51px;
+}
+.proses-higienis{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 16px;
+
+    position: absolute;
+    width: 266px;
+    height: 148px;
+    left: 415px;
+    top: 51px;
+    }
+.higienis{
+    width: 24px;
+    height: 24px;
+    
+    /* Transparent */
+
+    background: #FFFFFF;
+    background-blend-mode: multiply;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+.higienis1{
+    width: 138px;
+    height: 28px;
+
+    font-family: 'Atkinson Hyperlegible';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 140%;
+    /* identical to box height, or 28px */
+
+
+    color: #2C3333;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+.higienis2{
+    width: 266px;
+    height: 72px;
+
+    font-family: 'Aoboshi One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    /* or 24px */
+
+
+    color: #2C3333;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+.harga-terjangkau{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 16px;
+
+    position: absolute;
+    width: 235px;
+    height: 172px;
+    left: 739px;
+    top: 51px;
+}
+.harga{
+    width: 24px;
+    height: 24px;
+
+    /* Transparent */
+
+    background: #FFFFFF;
+    background-blend-mode: multiply;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+.harga1{
+    width: 196px;
+    height: 28px;
+
+    font-family: 'Atkinson Hyperlegible';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 140%;
+    /* identical to box height, or 28px */
+
+
+    color: #2C3333;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+.harga2{
+    width: 235px;
+    height: 96px;
+
+    font-family: 'Aoboshi One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    /* or 24px */
+
+
+    color: #2C3333;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+.bahan-natural{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 13px;
+
+    position: absolute;
+    width: 265px;
+    height: 172px;
+    left: 1065px;
+    top: 51px;
+
+}
+.bahan{
+    width: 24px;
+    height: 24px;
+
+    /* Transparent */
+
+    background: #FFFFFF;
+    background-blend-mode: multiply;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+.bahan1{
+    width: 196px;
+    height: 28px;
+
+    font-family: 'Atkinson Hyperlegible';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 140%;
+    /* identical to box height, or 28px */
+
+
+    color: #2C3333;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+.bahan2{
+    width: 265px;
+    height: 96px;
+
+    font-family: 'Aoboshi One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    /* or 24px */
+
+
+    color: #2C3333;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+.produk-baru{
+    width: 1440px;
+    height: 761px;
+
+    /* White */
+
+    background: #FFFFFF;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 3;
+    flex-grow: 0;
+}
+.produk-baru h2{
+    position: absolute;
+    width: 171px;
+    height: 40px;
+    left: 80px;
+    top: 1330px;
+
+    font-family: 'Atkinson Hyperlegible';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 40px;
+    /* identical to box height */
+
+
+    color: #2C3333;
+}
+.original{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 24px;
+
+    position: absolute;
+    width: 305px;
+    height: 462px;
+    left: 80px;
+    top:1420px;
+
+}
+
+.kombucha{
+    width: 200px;
+    height: 28px;
+
+    font-family: 'Atkinson Hyperlegible';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 140%;
+    /* identical to box height, or 28px */
+
+
+    color: #2C3333;
+
+}
+
+.strawberry{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 24px;
+
+    position: absolute;
+    width: 305px;
+    height: 462px;
+    left: 405px;
+    top: 1420px;
+}
+
+
+.apple{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 24px;
+
+    position: absolute;
+    width: 305px;
+    height: 462px;
+    left: 730px;
+    top: 1420px;
+}
+.price{
+    width: 100px;
+    height: 27px;
+
+    font-family: 'Aoboshi One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    /* identical to box height, or 27px */
+
+
+    color: #2C3333;
+}
+.lychee{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 24px;
+
+    position: absolute;
+    width: 305px;
+    height: 462px;
+    left: 1055px;
+    top: 1420px;
+}
+.khasiat{
+    position: absolute;
+    width: 720px;
+    height: 603px;
+    left: 0px;
+    top: 2030px;
+
+    background: #FFFFFF;
+}
+.khasiat-kombucha{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 25px;
+
+    position: absolute;
+    width: 536px;
+    height: 191px;
+    left: 84px;
+    top: 72px;
+}
+.khasiat-kombucha h4{
+    width: 200px;
+    height: 34px;
+
+    font-family: 'Atkinson Hyperlegible';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 140%;
+    /* identical to box height, or 34px */
+
+
+    color: #2C3333;
+}
+.khasiat-kombucha{
+    width: 536px;
+    height: 132px;
+
+    font-family: 'Aoboshi One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 23px;
+
+    color: #2E4F4F;
+}
+.hasil-penelitian {
+    padding-left: 20px;
+}
+.scoby{
+    position: absolute;
+    width: 720px;
+    height: 603px;
+    left: 720px;
+    top: 2030px;
+
+}
+.shop{
+    box-sizing: border-box;
+
+/* Auto layout */
+
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 16px 32px;
+    gap: 10px;
+    border-radius: 6px;
+    position: absolute;
+    width: 143px;
+    height: 56px;
+    left: 635px;
+    top: 1918px;
+    background: #efefef;
+    text-decoration: none;
+    font-family: 'Aoboshi One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    /* identical to box height, or 24px */
+
+
+    color: #2C3333;
+    transition: 0.1s;
+    
+}
+.footer{
+    width: 1440px;
+    height: 380px;
+    margin-top: 1872px;
+    background: #2C3333;
+}
+.product-information{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 12px;
+    position: absolute;
+}
+.product-information h4{
+    width: 141px;
+    height: 20px;
+    margin-left:82px ;
+    padding-top: 58px;
+    font-family: 'Atkinson Hyperlegible';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    /* identical to box height */
+
+
+    color: #CBE4DE;
+
+}
+.product-information a {
+    width: 72px;
+    height: 20px;
+    text-decoration: none;
+    font-family: 'Aoboshi One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    margin-left: 82px;
+    color: #CBE4DE;
+}
+.product-information ul{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 12px;
+}
+.our-company{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 12px;
+    margin-left: 299px;
+    padding-top: 58px;
+}
+.our-company ul{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 12px;
+    color: #2C3333;
+}
+.our-company h4{
+    width: 94px;
+    height: 20px;
+
+    font-family: 'Atkinson Hyperlegible';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    /* identical to box height */
+    
+
+    color: #CBE4DE;
+}
+.our-company a{
+    width: 81px;
+    height: 20px;
+    text-decoration: none;
+    font-family: 'Aoboshi One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    
+    color: #CBE4DE;
+}
+.whatsapp a{
+    width: 81px;
+    height: 20px;
+    text-decoration: none;
+    font-family: 'Aoboshi One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    
+    color: #CBE4DE;
+}
+.whatsapp{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 12px;
+    margin-left: 485px;
+    padding-top: 58px;
+}
+.whatsapp ul{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 12px;
+    color: #2C3333;
+}
+.whatsapp h4{
+    width: 150px;
+    height: 20px;
+
+    font-family: 'Atkinson Hyperlegible';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    /* identical to box height */
+    
+
+    color: #CBE4DE;
+}.line{
+    position: relative;
+    width: 1277px;
+    height: 0px;
+    left: 80px;
+    top: 292px;
+
+    border: 1px solid #2E4F4F;
+}
+.footer p{
+    position: relative;
+    width: 241px;
+    height: 20px;
+    left: 80px;
+    top: 316px;
+
+    font-family: 'Aoboshi One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+
+    color: #E3EDEB;
+
+}
+.facebook{
+    margin-left: 1237px;
+    margin-top: 295px;
+}
+.instagram{
+    margin-left: 24px;
+}
+.view:hover{
+    background: rgba(159, 159, 159, 0.429);
+}
+.view:active{
+    background: rgba(249, 249, 249, 0.087);
+}
+.produk-baru img{
+    transition: 0.4s;
+}
+.produk-baru img:hover{
+    transform:scale(1.03)
+}
+.shop:hover{
+    background: #dcdcdc;
+}
+.shop:active{
+    background: #ececec;
+}
